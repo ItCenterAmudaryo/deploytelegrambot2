@@ -1,0 +1,723 @@
+2025-04-11 15:17:44,518 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 15:17:44,634 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:17:59,093 - aiogram.event - INFO - Update id=183909487 is handled. Duration 516 ms by bot id=7570168668
+2025-04-11 15:18:01,082 - aiogram.event - INFO - Update id=183909488 is handled. Duration 327 ms by bot id=7570168668
+2025-04-11 15:18:03,238 - aiogram.event - INFO - Update id=183909489 is handled. Duration 625 ms by bot id=7570168668
+2025-04-11 15:18:48,606 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 15:18:49,125 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:19:02,044 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 15:19:02,160 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:19:02,820 - aiogram.event - INFO - Update id=183909490 is handled. Duration 547 ms by bot id=7570168668
+2025-04-11 15:20:53,318 - aiogram.event - INFO - Update id=183909491 is not handled. Duration 625 ms by bot id=7570168668
+2025-04-11 15:20:53,318 - aiogram.event - ERROR - Cause exception while process update id=183909491 by bot id=7570168668
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 140, in xabar_kelganda
+    await m.edit_text(EditMessageText(m.text.upper()))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseModel.__init__() takes 1 positional argument but 2 were given
+2025-04-11 15:22:53,791 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 15:22:54,399 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:22:58,965 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 15:22:59,090 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:23:02,565 - aiogram.event - INFO - Update id=183909492 is handled. Duration 500 ms by bot id=7570168668
+2025-04-11 15:37:40,232 - aiogram.event - INFO - Update id=183909493 is handled. Duration 297 ms by bot id=7570168668
+2025-04-11 15:37:41,728 - aiogram.event - INFO - Update id=183909494 is handled. Duration 266 ms by bot id=7570168668
+2025-04-11 15:37:43,998 - aiogram.event - INFO - Update id=183909495 is handled. Duration 515 ms by bot id=7570168668
+2025-04-11 15:43:30,911 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 15:43:31,393 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:43:34,225 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 15:43:34,342 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:43:39,030 - aiogram.event - INFO - Update id=183909496 is handled. Duration 858 ms by bot id=7570168668
+2025-04-11 15:43:40,127 - aiogram.event - INFO - Update id=183909497 is handled. Duration 297 ms by bot id=7570168668
+2025-04-11 15:43:41,507 - aiogram.event - INFO - Update id=183909498 is handled. Duration 641 ms by bot id=7570168668
+2025-04-11 15:45:39,225 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 15:45:39,636 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:45:42,995 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 15:45:43,112 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:45:55,146 - aiogram.event - INFO - Update id=183909499 is handled. Duration 1280 ms by bot id=7570168668
+2025-04-11 15:45:58,460 - aiogram.event - INFO - Update id=183909500 is handled. Duration 343 ms by bot id=7570168668
+2025-04-11 15:45:59,467 - aiogram.event - INFO - Update id=183909501 is handled. Duration 422 ms by bot id=7570168668
+2025-04-11 15:46:01,389 - aiogram.event - INFO - Update id=183909502 is handled. Duration 1219 ms by bot id=7570168668
+2025-04-11 15:46:01,462 - aiogram.event - INFO - Update id=183909503 is handled. Duration 516 ms by bot id=7570168668
+2025-04-11 15:46:03,183 - aiogram.event - INFO - Update id=183909504 is handled. Duration 546 ms by bot id=7570168668
+2025-04-11 15:46:11,082 - aiogram.event - INFO - Update id=183909505 is handled. Duration 390 ms by bot id=7570168668
+2025-04-11 15:46:14,231 - aiogram.event - INFO - Update id=183909506 is handled. Duration 563 ms by bot id=7570168668
+2025-04-11 15:46:32,351 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 15:46:33,109 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:46:36,552 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 15:46:36,668 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 15:46:39,682 - aiogram.event - INFO - Update id=183909507 is handled. Duration 1532 ms by bot id=7570168668
+2025-04-11 15:46:41,075 - aiogram.event - INFO - Update id=183909508 is handled. Duration 281 ms by bot id=7570168668
+2025-04-11 15:46:42,784 - aiogram.event - INFO - Update id=183909509 is handled. Duration 811 ms by bot id=7570168668
+2025-04-11 15:46:51,201 - aiogram.event - INFO - Update id=183909510 is handled. Duration 733 ms by bot id=7570168668
+2025-04-11 15:46:54,388 - aiogram.event - INFO - Update id=183909511 is handled. Duration 266 ms by bot id=7570168668
+2025-04-11 15:46:56,392 - aiogram.event - INFO - Update id=183909512 is handled. Duration 594 ms by bot id=7570168668
+2025-04-11 15:46:58,514 - aiogram.event - INFO - Update id=183909513 is handled. Duration 281 ms by bot id=7570168668
+2025-04-11 15:46:59,810 - aiogram.event - INFO - Update id=183909514 is handled. Duration 671 ms by bot id=7570168668
+2025-04-11 16:00:33,357 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:00:33,774 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:00:37,042 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:00:37,163 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:00:39,879 - aiogram.event - INFO - Update id=183909515 is handled. Duration 875 ms by bot id=7570168668
+2025-04-11 16:00:41,059 - aiogram.event - INFO - Update id=183909516 is handled. Duration 282 ms by bot id=7570168668
+2025-04-11 16:00:42,945 - aiogram.event - INFO - Update id=183909517 is not handled. Duration 1031 ms by bot id=7570168668
+2025-04-11 16:00:42,945 - aiogram.event - ERROR - Cause exception while process update id=183909517 by bot id=7570168668
+ValidationError: 2 validation errors for SendMessage
+chat_id.int
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+chat_id.str
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 121, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=getenv("ADMINS[0]"),\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2807, in send_message
+    call = SendMessage(
+           ^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for SendMessage
+chat_id.int
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+chat_id.str
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-11 16:01:09,339 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:01:09,746 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:01:14,595 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:01:14,711 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:01:17,260 - aiogram.event - INFO - Update id=183909518 is handled. Duration 516 ms by bot id=7570168668
+2025-04-11 16:01:18,540 - aiogram.event - INFO - Update id=183909519 is handled. Duration 280 ms by bot id=7570168668
+2025-04-11 16:01:19,913 - aiogram.event - INFO - Update id=183909520 is not handled. Duration 593 ms by bot id=7570168668
+2025-04-11 16:01:19,913 - aiogram.event - ERROR - Cause exception while process update id=183909520 by bot id=7570168668
+ValidationError: 2 validation errors for SendMessage
+chat_id.int
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+chat_id.str
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 121, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=getenv("ADMINS[0]"),\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2807, in send_message
+    call = SendMessage(
+           ^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for SendMessage
+chat_id.int
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+chat_id.str
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2025-04-11 16:02:09,358 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:02:09,753 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:02:13,167 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:02:13,282 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:02:15,002 - aiogram.event - INFO - Update id=183909521 is handled. Duration 547 ms by bot id=7570168668
+2025-04-11 16:02:16,875 - aiogram.event - INFO - Update id=183909522 is handled. Duration 937 ms by bot id=7570168668
+2025-04-11 16:02:20,411 - aiogram.event - INFO - Update id=183909523 is not handled. Duration 842 ms by bot id=7570168668
+2025-04-11 16:02:20,411 - aiogram.event - ERROR - Cause exception while process update id=183909523 by bot id=7570168668
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 121, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=i,\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-04-11 16:03:27,932 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:03:28,345 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:03:31,564 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:03:31,683 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:03:34,745 - aiogram.event - INFO - Update id=183909524 is handled. Duration 1594 ms by bot id=7570168668
+2025-04-11 16:03:36,117 - aiogram.event - INFO - Update id=183909525 is handled. Duration 375 ms by bot id=7570168668
+2025-04-11 16:03:37,749 - aiogram.event - INFO - Update id=183909526 is not handled. Duration 781 ms by bot id=7570168668
+2025-04-11 16:03:37,749 - aiogram.event - ERROR - Cause exception while process update id=183909526 by bot id=7570168668
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 122, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=i,\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-04-11 16:04:09,934 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:04:10,351 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:04:14,218 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:04:14,332 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:04:16,749 - aiogram.event - INFO - Update id=183909527 is handled. Duration 1031 ms by bot id=7570168668
+2025-04-11 16:04:18,249 - aiogram.event - INFO - Update id=183909528 is handled. Duration 390 ms by bot id=7570168668
+2025-04-11 16:04:19,608 - aiogram.event - INFO - Update id=183909529 is not handled. Duration 718 ms by bot id=7570168668
+2025-04-11 16:04:19,608 - aiogram.event - ERROR - Cause exception while process update id=183909529 by bot id=7570168668
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 122, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=i,\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-04-11 16:11:44,774 - aiogram.event - INFO - Update id=183909530 is handled. Duration 311 ms by bot id=7570168668
+2025-04-11 16:11:46,219 - aiogram.event - INFO - Update id=183909531 is handled. Duration 250 ms by bot id=7570168668
+2025-04-11 16:11:47,805 - aiogram.event - INFO - Update id=183909532 is not handled. Duration 532 ms by bot id=7570168668
+2025-04-11 16:11:47,805 - aiogram.event - ERROR - Cause exception while process update id=183909532 by bot id=7570168668
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 122, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=i,\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-04-11 16:13:39,689 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:13:42,839 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:13:42,957 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:13:44,644 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:13:46,869 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:13:50,793 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:13:50,909 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:13:56,100 - aiogram.event - INFO - Update id=183909533 is handled. Duration 954 ms by bot id=7570168668
+2025-04-11 16:13:57,725 - aiogram.event - INFO - Update id=183909534 is handled. Duration 547 ms by bot id=7570168668
+2025-04-11 16:13:59,857 - aiogram.event - INFO - Update id=183909535 is not handled. Duration 1234 ms by bot id=7570168668
+2025-04-11 16:13:59,857 - aiogram.event - ERROR - Cause exception while process update id=183909535 by bot id=7570168668
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 122, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=f"{i}",\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-04-11 16:14:02,359 - aiogram.event - INFO - Update id=183909536 is handled. Duration 922 ms by bot id=7570168668
+2025-04-11 16:14:03,904 - aiogram.event - INFO - Update id=183909537 is handled. Duration 280 ms by bot id=7570168668
+2025-04-11 16:14:05,208 - aiogram.event - INFO - Update id=183909538 is handled. Duration 265 ms by bot id=7570168668
+2025-04-11 16:14:06,550 - aiogram.event - INFO - Update id=183909539 is handled. Duration 327 ms by bot id=7570168668
+2025-04-11 16:14:08,038 - aiogram.event - INFO - Update id=183909540 is not handled. Duration 530 ms by bot id=7570168668
+2025-04-11 16:14:08,039 - aiogram.event - ERROR - Cause exception while process update id=183909540 by bot id=7570168668
+TelegramBadRequest: Telegram server says - Bad Request: chat not found
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\loyiha2025\tg_dars1\app.py", line 122, in ha_tanlanganda
+    await  call.bot.send_message(chat_id=f"{i}",\
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 2825, in send_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\bot.py", line 453, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat not found
+2025-04-11 16:14:36,329 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:14:36,837 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:14:40,512 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:14:40,627 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:14:43,799 - aiogram.event - INFO - Update id=183909541 is handled. Duration 530 ms by bot id=7570168668
+2025-04-11 16:14:45,569 - aiogram.event - INFO - Update id=183909542 is handled. Duration 483 ms by bot id=7570168668
+2025-04-11 16:14:51,957 - aiogram.event - INFO - Update id=183909543 is handled. Duration 5342 ms by bot id=7570168668
+2025-04-11 16:15:03,728 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:15:04,356 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:16:15,910 - aiogram.dispatcher - INFO - Start polling
+2025-04-11 16:16:16,027 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-11 16:23:35,290 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-11 16:23:35,919 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
