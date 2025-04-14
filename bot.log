@@ -747,3 +747,10 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: chat 
 2025-04-14 15:58:29,866 - aiogram.dispatcher - WARNING - Sleep for 4.902225 seconds and try again... (tryings = 10, bot id = 7570168668)
 2025-04-14 15:58:32,780 - aiogram.dispatcher - INFO - Polling stopped
 2025-04-14 15:58:33,156 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-14 15:58:51,067 - aiogram.dispatcher - INFO - Start polling
+2025-04-14 15:58:51,233 - aiogram.dispatcher - INFO - Run polling for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
+2025-04-14 15:58:53,298 - aiogram.event - INFO - Update id=183909545 is handled. Duration 547 ms by bot id=7570168668
+2025-04-14 15:58:54,991 - aiogram.event - INFO - Update id=183909546 is handled. Duration 421 ms by bot id=7570168668
+2025-04-14 15:58:56,613 - aiogram.event - INFO - Update id=183909547 is handled. Duration 312 ms by bot id=7570168668
+2025-04-14 16:20:04,241 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-14 16:20:04,732 - aiogram.dispatcher - INFO - Polling stopped for bot @python_dar2_bot id=7570168668 - 'python_dars2_bot'
