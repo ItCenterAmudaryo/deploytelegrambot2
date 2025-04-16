@@ -116,3 +116,12 @@ format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"\
        ])
    run(main())
 
+# git init  - Loyiha boshida gitni o'rnatish
+# git status - Gitda amalga oshirilayotgan amallarni ko'rsatadi
+# git add fayl_name.tip Bitta fayl gitda saqlashga tayyorlanadi
+# git add -A  Hamma fayllar gitda saqlashga tayyorlanadi
+# git commit -m"IZoh yozamiz" Gitga kommentarya qo'shish
+# git --global user.name "NAME" git bashga nom berish
+# git --global user.email "EMAIL" git bashga email qo'shish
+# cd folder_name UShbu papkani ochish
+# cd .. - Ushbu papkadan chiqish
